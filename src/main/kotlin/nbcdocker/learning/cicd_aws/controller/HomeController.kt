@@ -11,6 +11,7 @@ class HomeController {
         return "home-aws"
     }
 
+
     @GetMapping("/healthz")
     fun healthz(): String {
         return "healthz-aws"
